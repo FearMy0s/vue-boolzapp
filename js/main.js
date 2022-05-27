@@ -1,5 +1,10 @@
-contacts: [
-    {
+const app= new Vue ({
+    el:`#app`,
+    data:{
+        Index:0,
+        contactSearch: ``,
+    contacts: [
+          {
         name: 'Michele',
         avatar: '_1',
         visible: true,
@@ -161,3 +166,5 @@ contacts: [
         ],
     }
 ]
+}
+})
