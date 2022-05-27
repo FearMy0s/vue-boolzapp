@@ -15,7 +15,7 @@ body{
     margin: auto;
     background-color: beige;
 }
-.main-nav{
+.main-app{
    
     display: flex;
     flex-flow: column wrap;
@@ -47,6 +47,14 @@ body{
     margin-left: 20px;
     vertical-align: middle;
     color: gray;
+}
+.x-smile{
+    left: 0%;
+    top: 15%;
+}
+.x-phone{
+    left: 87%;
+    top: 15%;
 }
 .notify{
     position: relative;
@@ -104,16 +112,14 @@ body{
 .main-nav-contact{
     overflow: auto;
     width: 100%;
-    max-height: 450px;
+    height: 550px;
 }
 .main-nav-contact li{
     width: 100%;
     height: 50px;
-    background-color: blue;
 
 }
 .chat-container{
-    display: flex;
     flex-flow: column wrap;
     background-color: #E6DFD6;
     display: flex;
@@ -126,4 +132,58 @@ body{
     height: 50px;
     background-color: #DBDBD2;
     border-left: 1px solid gray;
+
+}
+.contact-name{
+   margin-left: 10px;
+   vertical-align: text-top;
+   display: inline-block;
+
+}
+.access{
+    position: relative;
+    top: 40%;
+    right: 6%;
+}
+.chat-col-2{
+font-size: 25px;
+background-color: #E6DFD6;
+position: absolute;
+border: none;
+top: 89%;
+left: 39.6%;
+width: 1000px;
+}
+.messagebar{
+    margin-top:10px ;
+    position: absolute;
+    margin-left: 50px;
+    width: 800px;
+    height: 35px;
+}
+.chat-col-message{
+    max-height: 700px;
+    overflow: auto;
+    
+}
+.message-send{
+    border: 10px solid green;
+    border-radius: 20px;
+    margin-top: 20px;
+    position: relative;
+    background-color: green;
+    width: fit-content;
+    max-width: 20%;
+    left: 75%;
+    font-size: 20px;
+}
+.message-recevied{
+    border: 10px solid gray;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: gray;
+    font-size: 20px;
+    width: fit-content;
+    max-width: 35%;
+    margin-left: 50px;
 }
